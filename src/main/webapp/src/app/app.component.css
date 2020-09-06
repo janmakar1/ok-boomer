@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+
+  /* border: 1px solid black; */
+  background-color: #1976d2;
+  color: white;
+}
+
+h1 {
+  padding-left: 1em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid darkblue; */
+}
+
+nav ul li {
+  list-style-type: none;
+  /* border: 1px solid red; */
+  padding-left: 1em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
